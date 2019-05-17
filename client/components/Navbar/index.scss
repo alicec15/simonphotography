@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  height: 4em;
+  max-width: 100%;
+  position: absolute;
+  vertical-align: middle;
+  /* border-bottom: 0.5px solid #D4D4D4; */
+}
+
+.title {
+  margin-left: 5em;
+  color: #747474;
+  text-decoration: none;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 15px;
+  }
+}
+
+.title:hover {
+  text-decoration: line-through;
+}

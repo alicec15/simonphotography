@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './index.css'
+import './index.scss'
 
 class Navbar extends Component {
   constructor(props) {
@@ -8,9 +8,12 @@ class Navbar extends Component {
 
   render () {
     return (
-      <nav className="navbar navbar-expand-sm fixed-top navbar-light">
-        <a className="navbar-brand" href="">simonhuang....</a>
-      </nav>
+      <div>
+        <nav className="">
+          <a className="title" style={{ color:'#747474' }} href="">simonhuang.</a>
+        </nav>
+        <div className="c"></div>
+      </div>
     )
   }
  
