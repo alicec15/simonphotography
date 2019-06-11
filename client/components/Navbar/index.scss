@@ -3,13 +3,14 @@ nav {
   height: 5em;
   width: 100%;
   position: sticky;
-  vertical-align: middle;
+  // vertical-align: middle;
   /* border-bottom: 0.5px solid #D4D4D4; */
 
   .logo {
-    height: 5em;
-    width: 5vw;
-    padding-left: 10px;
+    height: 3em;
+    width: 5em;
+    padding-top: 15px;
+    opacity: 0.8;
   }
 
   .title {

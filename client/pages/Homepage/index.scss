@@ -15,6 +15,39 @@
     padding: 6px 0px;
   }
 
+  .middleWords {
+    text-align: center;
+    height: 150px;
 
+    #words {
+      padding-top: 10px;
+      font-size: 40px;
+      margin-bottom: 0px;
+      color: #BFBFBF;
+    }
+
+    #speaker {
+      padding-left: 400px;
+      font-weight: bold;
+
+    }
+  }
+
+
+}
+
+.footer {
+  text-align: center;
+  height: 50px;
+
+  #disclaimer {
+    padding-top: 10px;
+    margin: 0px;
+    color: #BFBFBF;
+  }
+  #me {
+    margin: 0px;
+    color: #ffc0cb;
+  }
 }
 

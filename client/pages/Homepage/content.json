@@ -1,0 +1,48 @@
+{
+  "landscape": [
+    {
+      "name": "gloria r.",
+      "location": "horseshoe bend",
+      "instagram": "loriuh",
+      "photoLink": "img/photo1Landscape.JPG"
+    },
+    {
+      "name": "gloria r.",
+      "location": "harvard square",
+      "instagram": "loriuh",
+      "photoLink": "img/photo3Landscape.JPG"
+    },
+    {
+      "name": "kelly l.",
+      "location": "industry city",
+      "instagram": "kellay",
+      "photoLink": "img/photo7Landscape.JPG"
+    }  
+  ],
+  "portrait": [
+    {
+      "name": "alice c.",
+      "location": "horseshoe bend",
+      "instagram": "porkbunnie",
+      "photoLink": "img/photo2Portrait.JPG"
+    },
+    {
+      "name": "simon h.",
+      "location": "library",
+      "instagram": "heyitsnomis",
+      "photoLink": "img/photo5Portrait.JPG"
+    },
+    {
+      "name": "alice c.",
+      "location": "FDR",
+      "instagram": "porkbunnie",
+      "photoLink": "img/photo4Portrait.JPG"
+    },
+    {
+      "name": "mitali k.",
+      "location": "high line",
+      "instagram": "mitmitli",
+      "photoLink": "img/photo6Portrait.JPG"
+    } 
+  ]
+}
