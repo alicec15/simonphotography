@@ -5,7 +5,7 @@ import './index.scss'
 const Navbar = () => (
   <nav className="">
     <img className="logo" src="img/simonLogo.png" />
-    <a className="title" href="">simonhuangPhotography.</a>
+    <Link className="title" to="/">simonhuangPhotography.</Link>
     <ul>
       <li><Link className="navLink" to="/travel">travel</Link></li>
       <li><Link className="navLink" to="">about</Link></li>

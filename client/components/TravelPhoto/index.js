@@ -11,6 +11,7 @@ const TravelPhoto = ({ travelPhotoDetails }) => {
       </div>
       <div className='infoTravel'>
         <h2>{ travelPhotoDetails.locationName }</h2>
+        <p>{ travelPhotoDetails.location }</p>
       </div>
 
     </div>

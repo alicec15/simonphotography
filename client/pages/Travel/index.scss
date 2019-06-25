@@ -1,11 +1,7 @@
-.travelPhotoContainer {
-  padding: 40px;
-
-  .travelPhoto {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1.5fr;
-    padding: 6px 0px;
-  }
-
+.travelName {
+  text-align: center;
+  color: #BFBFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  margin: 0px;
 }

@@ -1,25 +1,18 @@
 import React, { Component } from 'react'
-import TravelPhoto from '../../components/TravelPhoto'
+import TravelRow from '../../components/TravelRow'
 import './index.scss'
+const content = require('./content.json')
 
 const Travel = () => {
 
-  let tryDictionary = {
-    photoLink: "img/photo1Landscape.JPG",
-    locationName: "hi"
-  }
+  const travelDic = content.travelInformation
 
   return (
-   <div>
-     <div className="travelPhotoContainer">
-       <div className="travelPhoto">
-        <TravelPhoto
-          travelPhotoDetails={tryDictionary} />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       </div>
-     </div>
-   </div>
-  )
+    <div>
+      <p className="travelName">Travel</p>
+      <TravelRow travelDictionary={ travelDic }/>
+    </div>
+)
 }
 
 export default Travel;

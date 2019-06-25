@@ -1,0 +1,28 @@
+.travelPhotoContainer {
+  padding: 40px;
+
+  .travelPhoto {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    padding: 6px 0px;
+    margin-bottom: 40px;
+
+  }
+
+  .border { 
+      margin-bottom: 50px;
+      display:block;
+      border:none;
+      color:white;
+      height:1px;
+      background:black;
+      background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+  }
+  
+
+  .travelDescription {
+    padding: 40px;
+  }
+
+}
