@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './index.scss'
 
 const Photo = ({ photoDetails }) => {
-  // console.log('hi', photoDetails)
   
   return (
     <div className='container'>

@@ -47,16 +47,25 @@ nav {
     }
   }
 
-  li a {
+  li .navLink {
     display: block;
     padding: 5px 15px 5px;
     text-decoration: none;
     color: #222222;
   }
 
-  li a:hover {
+  li .navLink:hover {
     color: #9C6D78;
   }
+
+  li .instaLink {
+    padding-right: 10px;
+  }
+
+  li .instaLink:hover {
+    opacity: 0.5;
+  }
+  
 
 }
 
