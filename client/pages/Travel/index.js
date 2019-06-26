@@ -12,7 +12,7 @@ const Travel = () => {
       <p className="travelName">Travel</p>
       <TravelRow travelDictionary={ travelDic }/>
     </div>
-)
+  )
 }
 
 export default Travel;
