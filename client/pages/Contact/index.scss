@@ -1,0 +1,24 @@
+.simonContact {
+  text-align: center;
+
+  h2 {
+    margin-bottom: 5px;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #9C6D78;
+    border: none;
+  }
+
+  a:hover {
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 10px; 
+  }
+}

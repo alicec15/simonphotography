@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Homepage from './Homepage'
 import Travel from './Travel'
 import About from './About'
+import Contact from './Contact'
 import createBrowserHistory from 'history/createBrowserHistory'
 
 const history = createBrowserHistory()
@@ -15,6 +16,7 @@ const App = () => (
   <div>
     <Navbar />
     <Switch>
+      <Route path="/contact" component={ Contact } />
       <Route path="/about" component={ About } />
       <Route path="/travel" component={ Travel } />
       <Route path="/" component={ Homepage } />
